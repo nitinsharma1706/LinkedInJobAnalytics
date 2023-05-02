@@ -4,9 +4,9 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 
-df=pd.read_csv(f"C:/Users/91626/Downloads/final_Linked_Project_final_Output_DataFrame_final.csv")
+df=pd.read_csv(f"C:/Users/91626/Documents/GitHub/LinkedInJobAnalytics.github.io/ML_model/final_Linked_Project_final_Output_DataFrame_final (1).csv")
 
-df_skills_req=pd.read_csv(f"C:/Users/91626/Downloads/skills (1).csv")
+df_skills_req=pd.read_csv(f"C:/Users/91626/Documents/GitHub/LinkedInJobAnalytics.github.io/ML_model/skills (1) (1).csv")
 
 pre_skills = df_skills_req['skills'].values
 
