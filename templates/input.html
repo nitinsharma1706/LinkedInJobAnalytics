@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Document</title>
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
+   <style>
+      body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         align-content: center;
+         height: 95vh;
+         margin: 0;
+         padding-bottom:0px;
+         background: url("static/bg8.png");
+         background-size: cover;
+         background-color: rgba(0, 0, 0, 0.7);
+         /* background-color:aqua; */
+      }
+
+      .container {
+
+         position: relative;
+
+         /* filter:blur(8px); */
+         align-self: center;
+         width: 60%;
+         height: 65vh;
+         text-align: center;
+         background-color: #181d36e7;
+         border-radius: 5px;
+         margin: 50px;
+         margin-top: 290px;
+         /* margin-bottom:auto; */
+         box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2),
+            2px 2px 0px rgba(0, 0, 0, 0.2),
+            3px 3px 0px rgba(0, 0, 0, 0.2),
+            4px 4px 0px rgba(0, 0, 0, 0.2),
+            5px 5px 0px rgba(0, 0, 0, 0.2);
+         /* 6px 6px 0px #000,
+         7px 7px 0px #000; */
+         overflow: hidden;
+         /* margin-bottom: 300px; */
+         border: 300px;
+      }
+
+      /* .container::after{
+            width: 80%;
+            height: 60vh;
+            background-color:rgba(0,0,0,0.6);
+            box-shadow: 4px 8px rgba(0,0,0,0.2);
+            filter:blur(8px)
+         } */
+      .search-box {
+         display: inline-block;
+         margin: 0 auto;
+      }
+
+      h1 {
+         position: relative;
+         top: -21px;
+         text-align: start;
+         padding-left: 50px;
+         padding-top: 10px;
+         font-family: 'Arial Narrow';
+         font-style: normal;
+         height: 50px;
+         background-color: #ec0f21be;
+
+         color: rgb(255, 255, 255, 255);
+      }
+
+      #input {
+         border: 0;
+         margin: 0;
+         padding: 0;
+         outline: 0;
+         width: 50%;
+
+         float: right;
+         /* background-color: #F2F2F2; */
+         height: 6vh;
+      }
+
+      #input:focus {
+         border-top: none;
+         border-left: none;
+         border-right: none;
+      }
+
+      #BTN:hover {
+         background-color: green;
+         color: #F2F2F2
+      }
+      #btn2:hover{
+         background-color: green;
+         color: #F2F2F2
+      }
+
+      #labelX {
+         padding-top: 3%;
+         padding-right: 3%;
+         display: inline-block;
+         border-right-color: black;
+         text-align: center;
+         border-right-width: 1px;
+         border-right-style: solid;
+         height: 5vh;
+         /* display: block;
+         position: relative;
+         width: 50%; */
+         /* top: auto;
+         bottom:auto;
+         text-align: center;
+         left:0px;
+         background-color:aliceblue;
+         height: 6vh; */
+      }
+
+      #wrp {
+         display: inline-block;
+         position: relative;
+         background-color: white;
+         height: 7vh;
+         width: 600px;
+         border-radius: 5px;
+         overflow: hidden;
+         /* display:flex; */
+      }
+
+      p {
+         display:block;
+         text-align: left;
+         color: white;
+      }
+   </style>
+   <script>
+      function direct(){
+         
+         window.location.href = 'http://127.0.0.1:5000/table'
+   
+      }
+   </script>
+
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <h1>Search Jobs</h1>
+      </header>
+      <div class="search-box">
+         <form method="POST" action="{{ url_for('input') }}">
+            <div id="wrp">
+               <label for="input" style="position: relative; left:-60px" id="labelX">Skill (Keyword / s):</label>
+               <input type="text" id="input" name="input" required placeholder="python, java, communication, finance" />
+            </div>
+
+            <button type="submit" id="BTN"
+               style="width:150px;height:7.4vh;position:relative;top:-1px;margin-left:7px;border-radius:5px;border-width: 2px;float:right">Submit</button>
+         </form>
+         <p style="position:relative;left:10px;">Showing Results for : {{ sharing_input }}</p>
+         <!-- <p>Output: {{ output }}</p> -->
+      </div>
+      
+      <div>
+         <!-- <p>{{output}}</p> -->
+         <div id="pwrp1" style="display:inline-block;margin-right:110px;">
+            <p>Most common Experience Level:</p>
+            <p style="border-bottom-width: 2px;border-bottom-color:rgba(255,255,255,0.6);border-bottom-style:solid;margin-bottom:40px;padding-bottom:10px"> {{ level }}</p>
+            <p>Most common Industry: </p>
+            <p style="border-bottom-width: 2px;border-bottom-color:rgba(255,255,255,0.6);border-bottom-style:solid;padding-bottom:10px">            {{ industry }}
+            </p>
+         </div>
+         <div id="pwrp2" style="display:inline-block;margin-left:110px">
+            <p>Most common Company class: </p>
+            <p style="border-bottom-width: 2px;border-bottom-color:rgba(255,255,255,0.6);border-bottom-style:solid;margin-bottom:40px;padding-bottom:10px">{{ class1 }}</p>
+            <p>Total Number of Jobs Available: </p>
+            <p style="border-bottom-width: 2px;border-bottom-color:rgba(255,255,255,0.6);border-bottom-style:solid;padding-bottom:10px">{{ count }}</p>
+         </div>
+
+      </div>
+      <p style="text-align: center;width:100%;height:7vh;position:absolute;left:auto;right:auto"><a style="text-decoration: none;color: rgb(255, 247, 247);"
+            href="http://127.0.0.1:5000/table">Look all Job posting <span>&#9758</span></a></p>
+      <!-- <input type="button" id="btn2" onclick="direct()" style="position:absolute;right:0px;margin-bottom:10px;margin-right:10px;bottom:0px;padding-bottom:8px;padding-top:8px;padding-left:20px;padding-right:20px" name="btn" value="show all jobs"> -->
+   </div>
+</body>
+
+</html>

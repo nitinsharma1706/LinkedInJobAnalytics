@@ -1,0 +1,31 @@
+The goal of this project was to scrape data from LinkedIn using Selenium web driver
+ and Beautiful Soup, clean the data in Excel, perform SQL queries on the data, and
+ create a dashboard in Excel.
+
+
+Methods:
+1.	Scraping data from LinkedIn: The Selenium web driver was used to navigate to the LinkedIn website 
+      and search for profiles with specific criteria. Beautiful Soup was then used to parse the HTML code
+      of the profiles and extract the relevant data.
+
+2.	Cleaning data in Excel: The scraped data was imported into Exceland cleaned to remove any unnecessary
+      information. This included removing duplicates and formatting the data to ensure that it was easy to work with.
+
+3.	Performing SQL queries: SQL was used to perform a variety of queries on the cleaned data. This included queries
+      to select specific columns, filter the data based on certain criteria, and join tables to combine data from
+      multiple sources.
+
+4.	Creating a dashboard in Excel: The cleaned and queried data was then used to create a dashboard in Excel.
+      This included creating charts and graphs to visualize the data and presenting it in a clear and concise manner.
+
+Results:
+
+
+The scraping, cleaning, querying, and dashboard creation processes were successful in extracting, organizing, and presenting the data in a meaningful way.
+ The resulting dashboard provided valuable insights into the data and allowed for easy analysis and interpretation.
+
+
+Conclusion:
+Overall, the project was a success in using Selenium web driver, Beautiful Soup, Excel, and SQL to scrape, clean, query,
+ and analyze data from LinkedIn. The resulting dashboard provided a valuable tool for understanding and interpreting the data.
+
