@@ -10,11 +10,11 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 
 ## Data Description
 
-Jobs Table: This table contains information related to the job postings, including the job ID, company ID, job location, job title, and details ID.
+- Jobs Table: This table contains information related to the job postings, including the job ID, company ID, job location, job title, and details ID.
 
-Company Table: This table contains information related to the companies posting job listings, including the company ID, company name, industry, number of employees, and number of LinkedIn followers.
+- Company Table: This table contains information related to the companies posting job listings, including the company ID, company name, industry, number of employees, and number of LinkedIn followers.
 
-Details Table: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
+- Details Table: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
 
 
 
