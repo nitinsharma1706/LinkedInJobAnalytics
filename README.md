@@ -6,6 +6,16 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 
 ![Sample_User_interface](https://organic-meat-d9c.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6924ce33-8b0b-48aa-b160-acda88d687e3%2FUntitled.png?id=737e0fc7-5be9-4416-ab42-4f44421e75ab&table=block&spaceId=c66c347d-9bbf-4d43-ac0c-5d6d4736cb3e&width=800&userId=&cache=v2)
 
+## Data Description
+
+Jobs Table: This table contains information related to the job postings, including the job ID, company ID, job location, job title, and details ID.
+
+Company Table: This table contains information related to the companies posting job listings, including the company ID, company name, industry, number of employees, and number of LinkedIn followers.
+
+Details Table: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
+
+
+
 ## Methodology
 
 The following methodology was used to accomplish the project objectives:
@@ -22,4 +32,10 @@ The following methodology was used to accomplish the project objectives:
 
 ## Results
 
-The project successfully scraped job data from LinkedIn, transformed the data into three tables, and extracted the required skills using the NLTK library. The companies were classified into four classes based on their employee count and LinkedIn followers, and a search bar was created using the Flask web framework for users to search for skills. The FuzzyBuzzy library was used to correct user input errors in the search bar, and upon entering the skill, the most common experience level, industry, and company class where the skill is required, and the number of jobs available for the skill were displayed.
+### This is webpage that will take input from users and generate output according to searched skills.
+![Sample_User_interface](https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h)
+
+### This is webpage that show all the listed jobs with some additional information.
+![Sample_User_interface](https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii)
+
+
