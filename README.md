@@ -1,4 +1,4 @@
-# Updated Project Report: Data Scraping and Analysis of Jobs Data from LinkedIn
+# Project Name : Job Analytics
 
 ## Introduction
 
