@@ -56,7 +56,26 @@ The following methodology was used to accomplish the project objectives:
 
 ## Results
 
-###                                          This is webpage that will take input from users and generate output according to searched skills.
+### 1. Key Insights from Dashboard
+
+- Maximum No of Jobs are in Banglore.
+
+- Top Hiring Industries are Information and Technology, Financial, and Education.
+ 
+- Top 5 States which have the most jobs are Delhi, Maharashtra, Haryana, Karnataka, and Uttar Pradesh.
+
+- Most of the Jobs are Full Time.
+
+- Large Company which are having employees count of 1000+ having 52% volume of total Jobs
+
+- When we are selecting Delhi we get to know that we have most of the jobs in Education Sector and then Information and Technology
+
+- We also get to know that Education sector has 37.29% Internships.
+
+- If we select Maharastra then we get to know that the  top industries are IT and Finance.
+
+
+### 2. This is webpage that will take input from users and generate output according to searched skills.
 
 <p>
   <img src="https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h" width="1200">
@@ -65,11 +84,28 @@ The following methodology was used to accomplish the project objectives:
 
 <!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h) -->
 
-###                                                This is webpage that show all the listed jobs for the particular skills with some additional information.
+### 3. This is webpage that show all the listed jobs for the particular skills with some additional information.
 
 <p>
   <img src="https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii" width="1200">
 </p>
 <!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii) -->
 
+## References
+
+- Python Software Foundation. (2022). Python Language Reference, version 3.10. Retrieved from https://docs.python.org/3/reference/index.html
+
+- Wikipedia contributors. (2023, April 19). BeautifulSoup. In Wikipedia, The Free Encyclopedia. Retrieved 15:44, April 22, 2023, from "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"
+
+- Wikipedia contributors. (2023, April 13). Flask (web framework). In Wikipedia, The Free Encyclopedia. Retrieved 15:48, April 22, 2023, from "https://en.wikipedia.org/wiki/Flask_(web_framework)"
+
+- Pandas Development Team. (n.d.). pandas 1.4.5 documentation. Retrieved April 22, 2023, from "https://pandas.pydata.org/docs/"
+
+- Scikit-learn developers. (n.d.). Clustering. Retrieved April 22, 2023, from "https://scikit-learn.org/stable/modules/clustering.html"
+
+- FuzzyBuzzy. (n.d.). FuzzyBuzzy Documentation. Retrieved April 22, 2023, from "https://pypi.org/project/fuzzybuzzy/"
+
+- Microsoft Corporation. (n.d.). Power BI. Retrieved April 22, 2023, from "https://powerbi.microsoft.com/en-us/"
+
+- Selenium with Python: https://selenium-python.readthedocs.io/
 
