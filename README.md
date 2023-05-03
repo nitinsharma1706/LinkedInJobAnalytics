@@ -58,7 +58,7 @@ The following methodology was used to accomplish the project objectives:
 
 ### 1. Key Insights from Dashboard
 
-- Maximum No of Jobs are in Banglore.
+- Maximum No of Jobs are in Bengaluru.
 
 - Top Hiring Industries are Information and Technology, Financial, and Education.
  
