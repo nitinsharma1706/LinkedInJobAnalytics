@@ -12,22 +12,6 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 
 
 
-**Jobs Table:**
-
-| Job ID | Company ID | Job Location | Job Title | Details ID |
-|--------|------------|--------------|-----------|------------|
-
-**Company Table:**
-
-| Company ID | Company Name | Industry     | Employees | LinkedIn Followers |
-|------------|--------------|--------------|-----------|--------------------|
-
-**Details Table:**
-
-| Details ID | Experience Level | Required Skills | Job Applicants |
-|------------|-----------------|-----------------|----------------|
-
-
 ## Problem aimed to solve
 
 1. Time-consuming and manual job search
@@ -38,12 +22,22 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 
 ## Data Description
 
-- Jobs Table: This table contains information related to the job postings, including the job ID, company ID, job location, job title, and details ID.
+- **Jobs Table**: This table contains information related to the job postings, including the job ID, company ID, job location, job title, Kpn Description and details ID.
 
-- Company Table: This table contains information related to the companies posting job listings, including the company ID, company name, industry, number of employees, and number of LinkedIn followers.
+| Job ID | Company ID | Job Location   | Job Title          | Job Description     | Details ID |
+|--------|------------|----------------|--------------------|---------------------|------------|
 
-- Details Table: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
 
+- **Company Table:**: This table contains information related to the companies posting job listings, including the company ID, company name, industry, number of employees, and number of LinkedIn followers.
+
+| Company ID | Company Name | Industry     | Employees | LinkedIn Followers |
+|------------|--------------|--------------|-----------|--------------------|
+
+
+- **Details Table:**: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
+
+| Details ID | Experience Level | Required Skills | Job Applicants |
+|------------|-----------------|-----------------|----------------|
 
 
 ## Methodology
