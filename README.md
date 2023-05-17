@@ -100,6 +100,16 @@ The following methodology was used to accomplish the project objectives:
   <img src="https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii" width="1200">
 </p>
 <!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii) -->
+   
+## Limitation
+   
+- One limitation of this project is the dependency on the structure and layout of the LinkedIn website. If LinkedIn changes its webpage structure or adds additional security measures, it may affect the data scraping process and require adjustments to the scraping code.
+- Another limitation of the project is that the accuracy and effectiveness of NLP in improving user input may vary depending on the complexity of the queries and the available training data. Ongoing research and improvements in NLP techniques can help enhance the accuracy and performance of user input correction.
+
+##Challenges:
+   
+- One of the main challenges faced in this project is implementing natural language processing (NLP) techniques to improve user input. NLP is a complex field, and incorporating it to enhance user input requires in-depth research and understanding. Overcoming the challenge of integrating NLP effectively to correct user input errors can be time-consuming and technically demanding.
+
 
 ## References
 
