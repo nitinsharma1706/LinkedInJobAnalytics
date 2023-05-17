@@ -8,6 +8,14 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 </p>
 
 
+## Problem aimed to solve
+
+1. Time-consuming and manual job search
+2. Lack of comprehensive job information
+3. Inaccurate search queries:
+4. Difficulty in analyzing job market trends:
+
+
 ## Data Description
 
 - Jobs Table: This table contains information related to the job postings, including the job ID, company ID, job location, job title, and details ID.
