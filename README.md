@@ -1,4 +1,7 @@
-# Project Name : Job Analytics
+# Project Name : LinkedIn Job Analytics
+<p align="center">
+  <img src="https://drive.google.com/uc?export=download&id=1RG4uLxg8fGY16rvZOOYWt04RY_aWP9jD" width="400">
+</p>
 
 ## Introduction
 
@@ -6,6 +9,23 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 <p align="center">
   <img src="https://organic-meat-d9c.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6924ce33-8b0b-48aa-b160-acda88d687e3%2FUntitled.png?id=737e0fc7-5be9-4416-ab42-4f44421e75ab&table=block&spaceId=c66c347d-9bbf-4d43-ac0c-5d6d4736cb3e&width=500&userId=&cache=v2" width="400">
 </p>
+
+
+
+**Jobs Table:**
+
+| Job ID | Company ID | Job Location | Job Title | Details ID |
+|--------|------------|--------------|-----------|------------|
+
+**Company Table:**
+
+| Company ID | Company Name | Industry     | Employees | LinkedIn Followers |
+|------------|--------------|--------------|-----------|--------------------|
+
+**Details Table:**
+
+| Details ID | Experience Level | Required Skills | Job Applicants |
+|------------|-----------------|-----------------|----------------|
 
 
 ## Problem aimed to solve
