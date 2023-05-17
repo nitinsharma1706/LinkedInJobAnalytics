@@ -1,8 +1,10 @@
+# imported needed library
 import pandas as pd
 import numpy as np
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
+# Reading files which are required
 
 df=pd.read_csv(f"C:/Users/91626/Documents/GitHub/LinkedInJobAnalytics.github.io/final_Linked_Project_final_Output_DataFrame_final (1).csv")
 
@@ -12,7 +14,6 @@ pre_skills = df_skills_req['skills'].values
 
 skill_df=pd.DataFrame(pre_skills,columns=['skills'])
 
-
 # --------------------------------------------------------
 skill_array_for_fuzzy_wuzzy=skill_df['skills']
 lst=[]
@@ -20,6 +21,7 @@ for i in skill_array_for_fuzzy_wuzzy:
     lst.append(i)
 # ---------------------------------------------------------------
 
+# fuction for converting returning input into string
 
 def Input_return(lis):
     s=''
@@ -27,7 +29,7 @@ def Input_return(lis):
         s=s+' '+i
     return s 
 
-
+# Matching input with our skills with a function with the help fuzzybuzzy library
 
 def input_match(x):
     final_keyword = []
@@ -43,21 +45,17 @@ def input_match(x):
     # print(final_keyword)
     return(final_keyword)
 
-
+#  function for the checking skills in our dataset
 
 def Checking_In_Our_Skills(s):
     if (df[df.skills.str.contains(s)].count()[0]>1):
         return True
     else:
         return False
-# from fuzzywuzzy import process5
-# query = 'pytonssm'
-# choices = lst
-# # Get a list of matches ordered by score, default limit to 5
-# a = process.extract(query, choices)
 
 
 
+# Returning Output variables with the help of user defined function
 
 def multi_output(skills):
     sum_of_job=[]
@@ -87,6 +85,7 @@ def multi_output(skills):
     level=level_df.max()['level']
     return ['count-->',sum(sum_of_job)],['Class-->',Class],['Industry-->',industry],['Level-->',level]
 
+# Returning required dataframe with the help of user defined function
 
 def Output_df(skills):
     for no,each in enumerate(skills):
@@ -108,12 +107,15 @@ def Output_df(skills):
 
 
 
-
+# importing  flask and other required modules
 
 from flask import Flask,render_template, request, redirect, url_for, session
 app = Flask(__name__)
 
+# Created secret key
 app.secret_key = 'your_secret_key'
+
+# created home page for our website
 
 @app.route('/', methods=['GET', 'POST'])
 def input():
@@ -158,6 +160,8 @@ def input():
         level=result[3][1]
         session['my_list']=lower_input
     return render_template('input.html',sharing_input=s,lower_input=lower_input,count=count,class1=class1,industry=industry,level=level)
+
+# Creating the second page for the website where we will show the job with met the user skills.
 
 @app.route('/table')
 def home():
