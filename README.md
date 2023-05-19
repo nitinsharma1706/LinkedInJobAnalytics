@@ -124,6 +124,8 @@ The following methodology was used to accomplish the project objectives:
    
 - One of the main challenges faced in this project is implementing natural language processing (NLP) techniques to improve user input. NLP is a complex field, and incorporating it to enhance user input requires in-depth research and understanding. Overcoming the challenge of integrating NLP effectively to correct user input errors can be time-consuming and technically demanding.
 
+- One of the challenges faced in this project was the initial difficulty in creating a webpage for user input after learning Flask from various sources. While Flask provided the necessary tools for web development, there was a learning curve involved in understanding its concepts and applying them effectively.
+
 
 ## References
 
