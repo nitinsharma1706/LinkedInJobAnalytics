@@ -22,23 +22,36 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 
 ## Data Description
 
-- **Jobs Table**: This table contains information related to the job postings, including the job ID, company ID, job location, job title, Kpn Description and details ID.
+- **Jobs Table**:
 
-| Job ID | Company ID | Job Location   | Job Title          | Job Description     | Details ID |
-|--------|------------|----------------|--------------------|---------------------|------------|
+Column Name    | Description
+---------------|-----------------------------------------------------------
+Job ID         | Unique identifier for each job posting
+Company ID     | Unique identifier for the company associated with the job
+Job Location   | Location of the job
+Job Title      | Title or position of the job
+Job Description| Description of the job posting provided by the company
+Details ID     | Unique identifier for additional details related to the job
+
+- **Company Table:**: 
+
+Column Name         | Description
+--------------------|-------------------------------------------------
+Company ID          | Unique identifier for each company
+Company Name        | Name of the company posting the job listings
+Industry            | Industry or sector in which the company operates
+Number of Employees | Total number of employees in the company
+Number of LinkedIn Followers | Number of followers the company has on LinkedIn
 
 
-- **Company Table:**: This table contains information related to the companies posting job listings, including the company ID, company name, industry, number of employees, and number of LinkedIn followers.
+- **Details Table:**:
 
-| Company ID | Company Name | Industry     | Employees | LinkedIn Followers |
-|------------|--------------|--------------|-----------|--------------------|
-
-
-- **Details Table:**: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
-
-| Details ID | Experience Level | Required Skills | Job Applicants |
-|------------|-----------------|-----------------|----------------|
-
+Column Name           | Description
+----------------------|--------------------------------------------------
+Details ID            | Unique identifier for each set of additional details
+Experience Level      | Level of experience required for the job posting
+Required Skills       | Skills or qualifications required for the job
+Total Number of Job Applicants | Total number of applicants who have applied for the job
 
 ## Methodology
 
