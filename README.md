@@ -89,30 +89,30 @@ The following methodology was used to accomplish the project objectives:
   
  <p>&nbsp;</p>
 
-7. **User Interface:** A search bar was created using the Flask web framework where users could search for skills. The FuzzyBuzzy library was used to correct user input errors in the search bar. Upon entering the skill, the most common experience level, industry, and company class where the skill is required, and the number of jobs available for the skill were displayed.
+7. **User Interface:** A search bar was created using the Flask web framework where users could search for skills. The FuzzyBuzzy library was used to correct user input errors in the search bar. Upon entering the skill, the most common experience level, industry, and company class where the skill is required, and the number of jobs available for the skill was displayed.
 
 ## Results
 
 ### 1. Key Insights from Dashboard
 
-- Top Hiring Industries are Information and Technology, Financial, and Education.
- 
-- Top 5 States which have the most jobs are Delhi, Maharashtra, Haryana, Karnataka, and Uttar Pradesh.
+**Business Perspective: Insights for Job Market and Talent Acquisition**
 
-- Emphasizing soft skills alongside technical expertise can enhance job market competitiveness for businesses and job seekers.
+1. **Top Hiring Industries**: Understanding the top hiring industries, such as Information and Technology, Financial, and Education, allows businesses to focus their recruitment efforts on sectors with high demand for talent. It enables them to tailor their job postings and employer branding strategies to attract candidates in these specific industries.
 
-- Large Company which are having employees count of 1000+ having 52% volume of total Jobs
+2. **Top 5 States with Most Jobs**: Identifying the states with the most job opportunities, like Delhi, Maharashtra, Haryana, Karnataka, and Uttar Pradesh, helps businesses target their talent acquisition efforts geographically. Companies can allocate resources and expand their presence in these regions to tap into a larger pool of potential candidates.
 
-- JavaScript, Python, and React are top in-demand technical skills, while communication and presentation skills are crucial for job seekers.
+3. **Importance of Soft Skills**: Recognizing the significance of soft skills alongside technical expertise empowers businesses to emphasize these qualities during the hiring process. By valuing communication, presentation, and interpersonal skills, companies can build a workforce with better adaptability and collaboration, enhancing overall job market competitiveness.
 
-- When we are selecting Delhi we get to know that we have most of the jobs in Education Sector and then Information and Technology
+4. **Focus on Large Companies**: Understanding that large companies with 1000+ employees offer a substantial volume of jobs (52%) highlights the significance of targeting such organizations. Job seekers can concentrate their efforts on these companies, while businesses can leverage their brand reputation to attract top talent and maintain a competitive edge.
 
-- We also get to know that Education sector has 37.29% Internships.
+5. **Delhi as a Hub for Education and IT**: Choosing Delhi as a prime location reveals that the city has a high concentration of job opportunities, particularly in the Education and Information Technology sectors. For businesses looking to expand their operations or establish a strong presence, targeting these industries in Delhi presents promising opportunities.
 
-- If we select Maharastra then we get to know that the  top industries are IT and Finance.
+6. **Education Sector and Internship Opportunities in Maharashtra**: For companies focusing on internships and skill development, Maharashtra offers a significant 37.29% of internship opportunities. This insight can guide businesses, educational institutions, and ed-tech startups in designing internship programs that cater to the specific demands of the Maharashtra job market.
+
+7. **Top Industries in Maharashtra**: Maharashtra being a hub for IT and Finance indicates that businesses looking to set up operations or recruit talent in these industries should prioritize the state. Understanding the top industries in a specific region can inform strategic decisions and resource allocation.
 
 
-### 2. This is webpage that will take input from users and generate output according to searched skills.
+### 2. This is a webpage that will take input from users and generate output according to searched skills.
 
 <p>
   <img src="https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h" width="1200">
@@ -121,7 +121,7 @@ The following methodology was used to accomplish the project objectives:
 
 <!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h) -->
 
-### 3. This is webpage that show all the listed jobs for the particular skills with some additional information.
+### 3. This is a webpage that shows all the listed jobs for the particular skills with some additional information.
 
 <p>
   <img src="https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii" width="1200">
@@ -137,7 +137,7 @@ The following methodology was used to accomplish the project objectives:
    
 - One of the main challenges faced in this project is implementing natural language processing (NLP) techniques to improve user input. NLP is a complex field, and incorporating it to enhance user input requires in-depth research and understanding. Overcoming the challenge of integrating NLP effectively to correct user input errors can be time-consuming and technically demanding.
 
-- Another challenge which faced in this project was the initial difficulty in creating a webpage for user input after learning Flask from various sources. While Flask provided the necessary tools for web development, there was a learning curve involved in understanding its concepts and applying them effectively.
+- Another challenge faced in this project was the initial difficulty in creating a webpage for user input after learning Flask from various sources. While Flask provided the necessary tools for web development, there was a learning curve involved in understanding its concepts and applying them effectively.
 
 
 ## References
