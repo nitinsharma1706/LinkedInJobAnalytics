@@ -95,15 +95,15 @@ The following methodology was used to accomplish the project objectives:
 
 ### 1. Key Insights from Dashboard
 
-- Maximum No of Jobs are in Bengaluru.
-
 - Top Hiring Industries are Information and Technology, Financial, and Education.
  
 - Top 5 States which have the most jobs are Delhi, Maharashtra, Haryana, Karnataka, and Uttar Pradesh.
 
-- Most of the Jobs are Full Time.
+- Emphasizing soft skills alongside technical expertise can enhance job market competitiveness for businesses and job seekers.
 
 - Large Company which are having employees count of 1000+ having 52% volume of total Jobs
+
+- JavaScript, Python, and React are top in-demand technical skills, while communication and presentation skills are crucial for job seekers.
 
 - When we are selecting Delhi we get to know that we have most of the jobs in Education Sector and then Information and Technology
 
